@@ -17,7 +17,7 @@ pipeline {
         }
         stage('git checkout'){
             steps {
-                git branch: 'main', url: 'https://github.com/Balu1plus6/iqoo-jenkins-docker-ecr.git'
+                git branch: 'main', url: 'https://github.com/Balu1plus6/docker-image-versioning-through-ecr-.git'
             }
         }
 
